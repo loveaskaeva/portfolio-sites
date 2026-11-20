@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Иван Котов — сайты для малого бизнеса</title>
+<meta name="description" content="Делаю сайты-визитки и лендинги для небольших компаний: барбершопы, кофейни, частные специалисты. Срок 5–10 дней.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f1ec;--ink:#151515;--mid:#5c5c58;--rule:#cfcdc4;--acc:#1f4fd1}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 "IBM Plex Sans",sans-serif}
+a{color:inherit}
+img{display:block;width:100%}
+.mono{font-family:"IBM Plex Mono",monospace}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+header .w{display:flex;justify-content:space-between;align-items:center;height:72px;border-bottom:1px solid var(--ink);font:14px "IBM Plex Mono"}
+header a{text-decoration:none}
+header nav a{margin-left:24px}
+header nav a:hover{color:var(--acc)}
+.hero{padding:96px 0 88px}
+.hero .mono{font-size:14px;color:var(--mid)}
+h1{font:600 clamp(36px,5.6vw,72px)/1.04 "IBM Plex Sans";letter-spacing:-.025em;max-width:15ch;margin:20px 0 28px}
+.hero p{max-width:560px;color:var(--mid);font-size:19px}
+.hero .cta{margin-top:40px;display:flex;gap:28px;flex-wrap:wrap;align-items:center}
+.btn{background:var(--ink);color:var(--bg);padding:15px 26px;text-decoration:none;font-weight:500}
+.btn:hover{background:var(--acc)}
+.u{text-decoration:none;border-bottom:1px solid var(--ink)}
+.u:hover{color:var(--acc);border-color:var(--acc)}
+section{padding:88px 0;border-top:1px solid var(--ink)}
+.sh{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:48px;gap:20px}
+h2{font:600 clamp(28px,3.4vw,40px)/1.1 "IBM Plex Sans";letter-spacing:-.015em}
+.sh .mono{font-size:14px;color:var(--mid)}
+.work{display:grid;grid-template-columns:1fr 1fr;gap:56px 40px}
+.work a{text-decoration:none;display:block}
+.shot{border:1px solid var(--ink);aspect-ratio:16/10;overflow:hidden;background:#ddd}
+.shot img{height:100%;object-fit:cover;object-position:top;transition:transform 1.2s ease}
+.work a:hover .shot img{transform:translateY(-6%)}
+.work h3{font-weight:600;font-size:20px;margin-top:16px;display:flex;justify-content:space-between;gap:12px}
+.work h3 span{font:400 13px "IBM Plex Mono";color:var(--mid);white-space:nowrap}
+.work p{color:var(--mid);font-size:15px;margin-top:4px}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule)}
+.svc div{padding:28px 28px 28px 0;border-right:1px solid var(--rule)}
+.svc div+div{padding-left:28px}
+.svc div:last-child{border-right:0}
+.svc h3{font-weight:600;font-size:19px}
+.svc b{display:block;font:500 15px "IBM Plex Mono";color:var(--acc);margin:6px 0 12px}
+.svc p{color:var(--mid);font-size:15px}
+.how{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+.how li span{font:500 13px "IBM Plex Mono";color:var(--mid)}
+.how li b{display:block;font-weight:600;margin:6px 0}
+.how li p{color:var(--mid);font-size:15px}
+.stack{font:14px/2 "IBM Plex Mono";color:var(--mid);margin-top:40px}
+.contact .w{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:end}
+.contact dl{font:15px "IBM Plex Mono";display:grid;grid-template-columns:110px 1fr;gap:10px}
+.contact dt{color:var(--mid)}
+footer{padding:28px 0;border-top:1px solid var(--rule);font:13px "IBM Plex Mono";color:var(--mid)}
+@media(max-width:860px){header nav{display:none}.work,.svc,.how,.contact .w{grid-template-columns:1fr}
+.svc div,.svc div+div{padding:24px 0;border-right:0;border-bottom:1px solid var(--rule)}.sh{flex-direction:column}section{padding:64px 0}.hero{padding:64px 0}}
+</style>
+</head>
+<body>
+<header><div class="w"><a href="#">Иван Котов</a><nav><a href="#work">Работы</a><a href="#price">Цены</a><a href="#contact">Связаться</a></nav></div></header>
+
+<div class="w hero">
+<div class="mono">Фрилансер, Москва · сейчас беру 2 проекта на декабрь</div>
+<h1>Сайты для барбершопов, кофеен и частных мастеров</h1>
+<p>Одна страница, которая объясняет, что вы делаете, сколько это стоит и как записаться. Без конструкторов и ежемесячной абонентки: сайт ваш, хостинг бесплатный.</p>
+<div class="cta"><a class="btn" href="#contact">Обсудить сайт</a><a class="u" href="#work">Посмотреть работы ↓</a></div>
+</div>
+
+<section id="work"><div class="w">
+<div class="sh"><h2>Последние работы</h2><span class="mono">2026</span></div>
+<div class="work">
+<a href="../01-barbershop/index.html"><div class="shot"><img src="img/p1.jpg" alt="Сайт барбершопа «Сталь»" loading="lazy"></div><h3>Барбершоп «Сталь» <span>визитка · 6 дней</span></h3><p>Прайс, мастера, запись по телефону. Тёмная тема под интерьер зала.</p></a>
+<a href="../02-photographer/index.html"><div class="shot"><img src="img/p2.jpg" alt="Сайт свадебного фотографа" loading="lazy"></div><h3>Анна Светлова <span>портфолио · 8 дней</span></h3><p>Фотографии на первом месте, пакеты съёмки, бронь даты.</p></a>
+<a href="../04-coffee/index.html"><div class="shot"><img src="img/p4.jpg" alt="Сайт кофейни «Зерно»" loading="lazy"></div><h3>Кофейня «Зерно» <span>визитка · 5 дней</span></h3><p>Меню в виде доски, часы работы, как пройти от парка.</p></a>
+<a href="../05-psychologist/index.html"><div class="shot"><img src="img/p5.jpg" alt="Сайт психолога" loading="lazy"></div><h3>Мария Лебедева <span>визитка · 7 дней</span></h3><p>Спокойная подача, запросы, цены и ответы на частые вопросы.</p></a>
+</div>
+</div></section>
+
+<section id="price"><div class="w">
+<div class="sh"><h2>Что могу сделать</h2><span class="mono">цены фиксирую до начала работы</span></div>
+<div class="svc">
+<div><h3>Сайт-визитка</h3><b>от 25 000 ₽ · 5–7 дней</b><p>Одна страница: услуги, цены, фото, контакты, карта. Адаптив под телефон.</p></div>
+<div><h3>Лендинг под рекламу</h3><b>от 45 000 ₽ · 10–14 дней</b><p>Под конкретное предложение, с формой заявки, аналитикой и отправкой заявок в Telegram.</p></div>
+<div><h3>Поддержка</h3><b>2 000 ₽ / час</b><p>Поменять цены, добавить мастера, обновить фото. Обычно в течение дня.</p></div>
+</div>
+</div></section>
+
+<section><div class="w">
+<div class="sh"><h2>Как работаем</h2></div>
+<ol class="how">
+<li><span>01</span><b>Созвон, 30 минут</b><p>Узнаю про бизнес, клиентов и что должно быть на сайте.</p></li>
+<li><span>02</span><b>Текст и структура</b><p>Пишу тексты сам, вы правите. Фото — ваши или подберу.</p></li>
+<li><span>03</span><b>Дизайн и вёрстка</b><p>Показываю живую ссылку, а не картинку. Два круга правок.</p></li>
+<li><span>04</span><b>Запуск</b><p>Подключаю домен, Яндекс Метрику, карту. Передаю все доступы.</p></li>
+</ol>
+<p class="stack">HTML/CSS · JavaScript · Astro · Next.js · Tilda (если очень нужно) · Figma · Яндекс Метрика · GitHub Pages / Netlify</p>
+</div></section>
+
+<section id="contact" class="contact"><div class="w">
+<div><h2>Напишите пару строк о вашем деле — отвечу в тот же день с оценкой</h2></div>
+<dl>
+<dt>Telegram</dt><dd><a class="u" href="#">@ivan_kotov_web</a></dd>
+<dt>Почта</dt><dd><a class="u" href="mailto:hello@example.com">hello@example.com</a></dd>
+<dt>Телефон</dt><dd>+7 (000) 000-00-00</dd>
+</dl>
+</div></section>
+<footer><div class="w">Иван Котов, самозанятый · 2026</div></footer>
+</body>
+</html>
